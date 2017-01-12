@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7A8D297D2CE633038714E071EB557C280DA01F97",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7A8D297D2CE633038714E071EB557C280DA01F97" : 9223372036854775807,
+    "908925F75081531BA058F901385642C96FEE6FFC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6BEB6DAF-7BA2-4D68-B443-AEC0E3907753",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7A8D297D2CE633038714E071EB557C280DA01F97" : "SonosIosApp\/",
+    "908925F75081531BA058F901385642C96FEE6FFC" : "..\/Deezer\/DeezerPlugin_RELISE_IOS_ANDROID"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloCordova",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/HelloCordova.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jeweller1980stepanets\/cordovaSonosApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7A8D297D2CE633038714E071EB557C280DA01F97"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jeweller1980stepanets\/Cordova-Plugin-Deezer-IOS-ANDROID.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "908925F75081531BA058F901385642C96FEE6FFC"
+    }
+  ]
+}

@@ -28,7 +28,7 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' data: gap: 'unsafe-eval'; style-src * 'self' 'unsafe-inline'; connect-src * ; script-src * 'self' 'unsafe-inline'; media-src *"><meta name="format-detection" content="telephone=no">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -41,6 +41,45 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
+                <ul id="list"></ul>
+                <button id="init">Found Devise</button>
+                <button id="getSpeakerInfo">getSpeakerInfo</button>
+                
+                <button id="stop">Stop</button>
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="next">Next</button>
+                <button id="prev">Previos</button>
+                
+                
+                <span id="span"></span>
+                <input type="text" id="inputVolume">
+                    <button id="setVolume">setVolume</button>
+                    <button id="getVolume">getVolume</button>
+                    
+                    <input type="text" id="inputMute">
+                        <button id="setMute">setMute</button>
+                        <button id="getMute">getMute</button>
+                        
+                        <input type="text" id="inputBass">
+                            <button id="setBass">setBass</button>
+                            <button id="getBass">getBass</button>
+                            
+                            <input type="text" id="inputTreble">
+                                <button id="setTreble">setTreble</button>
+                                <button id="getTreble">getTreble</button>
+                                
+                                <input type="text" id="inputLoudness">
+                                    <button id="setLoudness">setLoudness</button>
+                                    <button id="getLoudness">getLoudness</button>
+                                    
+                                    <button id="playTrack">playTrack</button>
+                                    <button id="getTrackInfo">getTrackInfo</button>
+                                    <button id="playFromQueue">playFromQueue</button>
+                                    <button id="seek">seek</button>
+                                    
+                                    <input type="text" id="inputPlayMode">
+                                        <button id="playmode">PlayMode</button>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
